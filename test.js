@@ -30,17 +30,8 @@ function checkTime(inputHour, inputMinute) {
     else {
         x = "testBankEnglish.html";
     }
-
-    console.log("x is " + x);
-    
-    console.log("Alarm is set for " + inputHour + ":" + inputMinute);
-    
+        
     if (h == inputHour && m == inputMinute) {
-        // window.alert("Wake up!");
-        // console.log("navigating to page");
-        // window.open (x);
-        // window.clearInterval(refreshIntervalId);
-        // location.reload(true);
         window.location.href = x;
     }
 
