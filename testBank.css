@@ -1,0 +1,48 @@
+h2 {
+    color: navy;
+    font-family: "franklin-gothic-urw";
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+#intro {
+    color: black;
+    font-size: 1.1em;
+    font-family: "franklin-gothic-urw-cond";
+    font-weight: 400;
+}
+
+ul {
+    color: black;
+    font-size: 1.1em;
+    font-family: "franklin-gothic-urw";
+    font-weight: 300;
+}
+
+p {
+    color: navy;
+    font-family: "brandon-grotesque";
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+body {
+    background-color: #b7d1c4
+}
+
+style {
+    border-style: solid;
+    border-color: #287EC7;
+}
+
+input {
+    font-family: "acumin-pro-condensed";
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 0;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    color: navy;
+}

@@ -1,0 +1,60 @@
+h3 {
+    color: #D2691E;
+    text-align: center;
+    font-size: 30pt;
+    font-family: "franklin-gothic-urw";
+}
+
+html {
+    font-family: "brandon-grotesque";
+}
+
+p {
+    color: #0000ff;
+    text-align: center;
+    font-family: "brandon-grotesque";
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+img {
+    height: 170px;
+    width: 170px;
+}
+
+body {
+    background-color: #b7d1c4
+}
+
+style {
+    border-style: solid;
+    border-color: #287EC7;
+}
+
+ol {
+    text-align: center;
+}
+
+select {
+    font-family: acumin-pro-condensed;
+    font-size: 1.2em;
+    border: 0;
+    margin: 10px;
+    display: inline-block;
+}
+
+input {
+    font-family: acumin-pro-condensed;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 0;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    color: #0000ff;
+}
+
+#topics {
+    font-size: 1.2em;
+}

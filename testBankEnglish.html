@@ -1,0 +1,99 @@
+
+<head>
+    <link rel="stylesheet" type="text/css" href="testBank.css">
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'ian8bjg',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                }
+                catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<script type="text/javascript" src="testBankEnglish.js"></script>
+
+<h2>Study Alarm: English Edition</h2>
+<p id="intro">Answer all three questions correctly in order to turn off the alarm!</p>
+
+<form name="englishtest">
+
+    <p class="question">1. What type of figurative languages is in this quote: "The sky is as pretty as a flower".</p>
+    <ul class="answers">
+        <input type="radio" name="q1" value="a1" id="q1a">
+        <label for="q1a">Simile</label>
+        <br/>
+        <input type="radio" name="q1" value="b1" id="q1b">
+        <label for="q1b">Personification</label>
+        <br/>
+        <input type="radio" name="q1" value="c1" id="q1c">
+        <label for="q1c">Hyperbole</label>
+        <br/>
+        <input type="radio" name="q1" value="d1" id="q1d">
+        <label for="q1d">Imagery</label>
+        <br/>
+    </ul>
+
+    <p class="question">2. What does ambivalent mean?</p>
+    <ul class="answers">
+        <input type="radio" name="q2" value="a2" id="q2a">
+        <label for="q2a">Pride</label>
+        <br/>
+        <input type="radio" name="q2" value="b2" id="q2b">
+        <label for="q2b">Glory</label>
+        <br/>
+        <input type="radio" name="q2" value="c2" id="q2c">
+        <label for="q2c">Smart</label>
+        <br/>
+        <input type="radio" name="q2" value="d2" id="q2d">
+        <label for="q2d">Uncertain</label>
+        <br/>
+    </ul>
+
+    <p class="question">3. Who wrote "The Sun Also Rises" (1926)</p>
+    <ul class="answers">
+        <input type="radio" name="q3" value="a3" id="q3a">
+        <label for="q3a">Catherine the Great</label>
+        <br/>
+        <input type="radio" name="q3" value="b3" id="q3b">
+        <label for="q3b">Samuel Lattin</label>
+        <br/>
+        <input type="radio" name="q3" value="c3" id="q3c">
+        <label for="q3c">Ernest Hemingway</label>
+        <br/>
+        <input type="radio" name="q3" value="d3" id="q3d">
+        <label for="q3d">Louis Madark</label>
+        <br/>
+    </ul>
+
+    <br/>
+    
+    <input type="button" value=" Submit Answers! " onclick="stopAlarm()">
+
+</form>
+
+<audio src="meme.mp3" id="mp3" preload="auto" loop autoplay></audio>
+<script type="text/javascript" src="testBankEnglish.js"></script>

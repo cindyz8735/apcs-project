@@ -1,0 +1,40 @@
+h1 {
+    color: #D2691E;
+    text-align: center;
+    font-size: 30pt;
+    font-family: "franklin-gothic-urw";
+}
+
+html {
+    font-family: "brandon-grotesque";
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+ol {
+    margin-left: -35px;
+}
+
+p {
+    color: #0000ff;
+    text-align: center;
+    font-family: "brandon-grotesque";
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+img {
+    height: 170px;
+    width: 170px;
+    float: none;
+}
+
+body {
+    background-color: #b7d1c4
+}
+
+style {
+    border-style: solid;
+    border-color: #287EC7;
+}

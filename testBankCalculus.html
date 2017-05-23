@@ -1,0 +1,99 @@
+
+<head>
+    <link rel="stylesheet" type="text/css" href="testBank.css">
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'ian8bjg',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                }
+                catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<script type="text/javascript" src="testBankCalculus.js"></script>
+
+<h2>Study Alarm: Calculus Edition</h2>
+<p id="intro">Answer all three questions correctly in order to turn off the alarm!</p>
+
+<form name="calcTest">
+    
+    <p class="question">1. What does the Derivative Represent?</p>
+    <ul class="answers">
+        <input type="radio" name="q1" value="a1" id="q1a">
+        <label for="q1a">The Solution to the Quadratic Formula</label>
+        <br/>
+        <input type="radio" name="q1" value="b1" id="q1b">
+        <label for="q1b">The Slope of the Line Tangent to a Function</label>
+        <br/>
+        <input type="radio" name="q1" value="c1" id="q1c">
+        <label for="q1c">The Area under a Curve</label>
+        <br/>
+        <input type="radio" name="q1" value="d1" id="q1d">
+        <label for="q1d">The Indefinite Integral of a Function</label>
+        <br/>
+    </ul>
+
+    <p class="question">2. What Theorem states that the Instantaneous Rate of Change will equal the Mean Rate of Change?</p>
+    <ul class="answers">
+        <input type="radio" name="q2" value="a2" id="q2a">
+        <label for="q2a">Mean Value Theorem</label>
+        <br/>
+        <input type="radio" name="q2" value="b2" id="q2b">
+        <label for="q2b">Rolle's Theorem</label>
+        <br/>
+        <input type="radio" name="q2" value="c2" id="q2c">
+        <label for="q2c">Intermediate Value Theorem</label>
+        <br/>
+        <input type="radio" name="q2" value="d2" id="q2d">
+        <label for="q2d">Squeeze Theorem</label>
+        <br/>
+    </ul>
+
+    <p class="question">3. What is the Antiderivative of csc(x)cot(x)dx?</p>
+    <ul class="answers">
+        <input type="radio" name="q3" value="a3" id="q3a">
+        <label for="q3a">uvw'+uv'w+u'vw</label>
+        <br/>
+        <input type="radio" name="q3" value="b3" id="q3b">
+        <label for="q3b">-cos(x)+C</label>
+        <br/>
+        <input type="radio" name="q3" value="c3" id="q3c">
+        <label for="q3c">ln(secx+tanx)+C</label>
+        <br/>
+        <input type="radio" name="q3" value="d3" id="q3d">
+        <label for="q3d">-csc(x)+C</label>
+        <br/>
+    </ul>
+
+    <br/>
+    
+    <input type="button" value=" Submit Answers! " onclick="stopAlarm()">
+    
+</form>
+
+<audio src="meme.mp3" id="mp3" preload="auto" loop autoplay></audio>
+<script type="text/javascript" src="testBankCalculus.js"></script>
