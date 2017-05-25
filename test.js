@@ -27,8 +27,11 @@ function checkTime(inputHour, inputMinute) {
     else if (inputTestBank == 3) {
         x = "testBankCalculus.html";
     }
-    else {
+    else if (inputTestBank == 4) {
         x = "testBankEnglish.html";
+    }
+    else {
+        x = "testBankAPES.html";
     }
         
     if (h == inputHour && m == inputMinute) {
@@ -70,8 +73,11 @@ function setAlarm() {
     else if (inputTestBank == 3) {
         x = "testBankCalculus.html";
     }
-    else {
+    else if (inputTestBank == 4) {
         x = "testBankEnglish.html";
+    }
+    else {
+        x = "testBankAPES.html";
     }
 
     console.log("The current time is " + h + ":" + m);
