@@ -53,7 +53,7 @@ ol {
 }
 
 select {
-    font-family: acumin-pro-condensed;
+    font-family: Lato;
     font-size: 1.2em;
     border: 0;
     margin: 0 auto;
@@ -61,15 +61,15 @@ select {
 }
 
 input {
-    font-family: acumin-pro-condensed;
+    font-family: Lato;
     font-weight: bold;
     font-size: 1.2em;
     border: 0;
     display: inline-block;
-    background-color: white;
+    background-color: orange;
     border-radius: 5px;
     margin: 10px;
-    color: #0000ff;
+    color: white;
     padding: 10px;
     border-radius: 4px;
 }

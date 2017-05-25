@@ -1,34 +1,44 @@
-h2 {
-    color: navy;
-    font-family: "franklin-gothic-urw";
-    font-weight: 700;
-    font-size: 1.7em;
-}
 
 #intro {
-    color: black;
+    color: white;
     font-size: 1.1em;
     font-family: "franklin-gothic-urw-cond";
     font-weight: 400;
 }
 
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(http://www.wallpaperfool.com/wp-content/uploads/Space-0010/Outter%20Space.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+form {
+    margin-left: 200;
+}
+
+h2 {
+    color: white;
+    font-family: "franklin-gothic-urw";
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
 ul {
-    color: black;
+    color: white;
     font-size: 1.1em;
     font-family: "franklin-gothic-urw";
     font-weight: 300;
 }
 
 p {
-    color: navy;
+    color: white;
     font-family: "brandon-grotesque";
     font-weight: 500;
     font-size: 1.2em;
 }
 
-body {
-    background-color: #b7d1c4
-}
 
 style {
     border-style: solid;
