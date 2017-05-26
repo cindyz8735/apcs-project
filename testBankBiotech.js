@@ -1,4 +1,5 @@
 var numberCorrect = 0;
+var home = document.getElementById("home");
 
 function validateForm() {
     var x = document.forms["biotechtest"]["q1"].value;
@@ -49,6 +50,9 @@ function stopAlarm() {
    if (validateForm() && validateForm2() && validateForm3()) {
        document.getElementById("mp3").pause();
        window.alert("The alarm will stop now.");
+       home.style.visibility = "visible";
    }
    else location.reload(true);
 }
+
+

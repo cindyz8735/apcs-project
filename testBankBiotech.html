@@ -37,65 +37,69 @@
 
 <script type="text/javascript" src="testBankBiotech.js"></script>
 
-<center><h2>Study Alarm: Biotechnology Edition</h2>
-<p id="intro">Answer all three questions correctly in order to turn off the alarm!</p></center>
+<div id="dark" >
+    <h2>Study Alarm: Biotechnology Edition</h2>
 
-<form name="biotechtest">
+    <p id="intro">Answer all three questions correctly in order to turn off the alarm!</p>
 
-    <p class="question">1. What is an Enzyme used to join together DNA Blunt Ends or Sticky Ends?</p>
-    <ul class="answers">
-        <input type="radio" name="q1" value="a1" id="q1a">
-        <label value="q1a">Somatropin</label>
-        <br/>
-        <input type="radio" name="q1" value="b1" id="q1b">
-        <label value="q1b">Methylases</label>
-        <br/>
-        <input type="radio" name="q1" value="c1" id="q1c">
-        <label value="q1c">DNA ligase</label>
-        <br/>
-        <input type="radio" name="q1" value="d1" id="q1d">
-        <label value="q1d">Restriction Enzyme</label>
-        <br/>
-    </ul>
+    <form name="biotechtest">
 
-    <p class="question">2. What is an Amplification of the DNA Sequence by Repeated Cycles of Strand Separation and Replication?</p>
-    <ul class="answers">
-        <input type="radio" name="q2" value="a2" id="q2a">
-        <label for="q2a">Polymerase Chain Reaction</label>
-        <br/>
-        <input type="radio" name="q2" value="b2" id="q2b">
-        <label for="q2b">Transformation</label>
-        <br/>
-        <input type="radio" name="q2" value="c2" id="q2c">
-        <label for="q2c">Autoradiogram</label>
-        <br/>
-        <input type="radio" name="q2" value="d2" id="q2d">
-        <label for="q2d">Restriction Endonulceases</label>
-        <br/>
-    </ul>
+        <p class="question">1. What is an Enzyme used to join together DNA Blunt Ends or Sticky Ends?</p>
+        <ul class="answers">
+            <input type="radio" name="q1" value="a1" id="q1a">
+            <label value="q1a">Somatropin</label>
+            <br/>
+            <input type="radio" name="q1" value="b1" id="q1b">
+            <label value="q1b">Methylases</label>
+            <br/>
+            <input type="radio" name="q1" value="c1" id="q1c">
+            <label value="q1c">DNA ligase</label>
+            <br/>
+            <input type="radio" name="q1" value="d1" id="q1d">
+            <label value="q1d">Restriction Enzyme</label>
+            <br/>
+        </ul>
 
-    <p class="question">3. What is an International Collaborative Effort to Map and Sequence the DNA of the Entire Human Genome?</p>
-    <ul class="answers">
-        <input type="radio" name="q3" value="a3" id="q3a">
-        <label for="q3a">DNA Fingerprinting</label>
-        <br/>
-        <input type="radio" name="q3" value="b3" id="q3b">
-        <label for="q3b">Human Genome Project</label>
-        <br/>
-        <input type="radio" name="q3" value="c3" id="q3c">
-        <label for="q3c">Pharmaceutical Science</label>
-        <br/>
-        <input type="radio" name="q3" value="d3" id="q3d">
-        <label for="q3d">Scientific Method</label>
-        <br/>
-    </ul>
+        <p class="question">2. What is an Amplification of the DNA Sequence by Repeated Cycles of Strand Separation and Replication?</p>
+        <ul class="answers">
+            <input type="radio" name="q2" value="a2" id="q2a">
+            <label for="q2a">Polymerase Chain Reaction</label>
+            <br/>
+            <input type="radio" name="q2" value="b2" id="q2b">
+            <label for="q2b">Transformation</label>
+            <br/>
+            <input type="radio" name="q2" value="c2" id="q2c">
+            <label for="q2c">Autoradiogram</label>
+            <br/>
+            <input type="radio" name="q2" value="d2" id="q2d">
+            <label for="q2d">Restriction Endonucleases</label>
+            <br/>
+        </ul>
 
-    <br/>
+        <p class="question">3. What is an International Collaborative Effort to Map and Sequence the DNA of the Entire Human Genome?</p>
+        <ul class="answers">
+            <input type="radio" name="q3" value="a3" id="q3a">
+            <label for="q3a">DNA Fingerprinting</label>
+            <br/>
+            <input type="radio" name="q3" value="b3" id="q3b">
+            <label for="q3b">Human Genome Project</label>
+            <br/>
+            <input type="radio" name="q3" value="c3" id="q3c">
+            <label for="q3c">Pharmaceutical Science</label>
+            <br/>
+            <input type="radio" name="q3" value="d3" id="q3d">
+            <label for="q3d">Scientific Method</label>
+            <br/>
+        </ul>
 
-    <input type="button" value=" Submit Answers! " onclick="stopAlarm()">
+        <br/>
 
-</form>
+        <input type="button" value=" Submit Answers! " onclick="stopAlarm()">
+        <INPUT TYPE="BUTTON" VALUE="Return to Home" onclick="location.href='index.html';" id="home">
+        
 
+    </form>
+</div>
 
 <audio src="meme.mp3" id="mp3" preload="auto" loop autoplay></audio>
 <script type="text/javascript" src="testBankBiotech.js"></script>
