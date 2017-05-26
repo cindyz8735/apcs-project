@@ -4,7 +4,7 @@ function validateForm() {
     var x = document.forms["calcTest"]["q1"].value;
     console.log(x);
     if (x == "b1") {
-        alert("Question 1 was answered correctly!");
+        //alert("Question 1 was answered correctly!");
         numberCorrect = numberCorrect + 1;
         console.log("Number correct so far is " + numberCorrect);
         return true;
@@ -19,7 +19,7 @@ function validateForm2() {
     var y = document.forms["calcTest"]["q2"].value;
     console.log(y);
     if (y == "a2") {
-        alert("Question 2 was answered correctly!");
+        //alert("Question 2 was answered correctly!");
         numberCorrect = numberCorrect + 1;
         console.log("Number correct so far is " + numberCorrect);
         return true;
@@ -35,7 +35,7 @@ function validateForm3() {
     var z = document.forms["calcTest"]["q3"].value;
     console.log(z);
     if (z == "d3") {
-        alert("Question 3 was answered correctly!");
+        //alert("Question 3 was answered correctly!");
         numberCorrect = numberCorrect + 1;
         console.log("Number correct so far is " + numberCorrect);
         return true;
