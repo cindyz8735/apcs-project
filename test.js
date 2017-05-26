@@ -33,8 +33,11 @@ function checkTime(inputHour, inputMinute) {
     else if (inputTestBank == 5) {
         x = "testBankMacro.html";
     }
-    else {
+    else if (inputTestBank == 6) {
         x = "testBankAPES.html";
+    }
+    else {
+        x = "testBankAPCS.html";
     }
         
     if (h == inputHour && m == inputMinute) {
@@ -82,8 +85,11 @@ function setAlarm() {
     else if (inputTestBank == 5){
         x = "testBankMacro.html";
     }
-    else {
+    else if (inputTestBank == 6) {
         x = "testBankAPES.html";
+    }
+    else {
+        x = "testBankAPCS.html";
     }
 
     console.log("The current time is " + h + ":" + m);
