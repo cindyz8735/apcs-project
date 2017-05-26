@@ -41,7 +41,7 @@ function validateForm3() {
         return true;
     }
     else {
-       //alert("Question 3 was answered incorrectly! Try again!");
+        alert("Question 3 was answered incorrectly! Try again!");
         console.log("Number correct so far is " + numberCorrect);
         return false;
     }
