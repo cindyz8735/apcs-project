@@ -1,5 +1,7 @@
+
 <head>
     <link rel="stylesheet" type="text/css" href="testBank.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700">
     <script>
         (function(d) {
             var config = {
@@ -35,64 +37,67 @@
 
 <script type="text/javascript" src="testBankAPES.js"></script>
 
-<h2>Study Alarm: Environmental Science Edition</h2>
-<p id="intro">Answer all three questions correctly in order to turn off the alarm!</p>
+<div id="dark" >
+    <h2>Study Alarm: Environmental Science Edition</h2>
+    <p id="intro">Answer all three questions correctly in order to turn off the alarm!</p>
 
-<form name="APESTest">
-    
-    <p class="question">1. What type of soil is best suited for agriculture?</p>
-    <ul class="answers">
-        <input type="radio" name="q1" value="a1" id="q1a">
-        <label for="q1a">Silt</label>
-        <br/>
-        <input type="radio" name="q1" value="b1" id="q1b">
-        <label for="q1b">Loam</label>
-        <br/>
-        <input type="radio" name="q1" value="c1" id="q1c">
-        <label for="q1c">Sand</label>
-        <br/>
-        <input type="radio" name="q1" value="d1" id="q1d">
-        <label for="q1d">Clay</label>
-        <br/>
-    </ul>
+    <form name="APESTest">
+        
+        <p class="question">1. What type of soil is best suited for agriculture?</p>
+        <ul class="answers">
+            <input type="radio" name="q1" value="a1" id="q1a">
+            <label for="q1a">Silt</label>
+            <br/>
+            <input type="radio" name="q1" value="b1" id="q1b">
+            <label for="q1b">Loam</label>
+            <br/>
+            <input type="radio" name="q1" value="c1" id="q1c">
+            <label for="q1c">Sand</label>
+            <br/>
+            <input type="radio" name="q1" value="d1" id="q1d">
+            <label for="q1d">Clay</label>
+            <br/>
+        </ul>
 
-    <p class="question">2. How many times does the Inter Tropical Convergence Zone cross over the horizon in a year?</p>
-    <ul class="answers">
-        <input type="radio" name="q2" value="a2" id="q2a">
-        <label for="q2a">1, moves from south to north</label>
-        <br/>
-        <input type="radio" name="q2" value="b2" id="q2b">
-        <label for="q2b">1, moves from north to south</label>
-        <br/>
-        <input type="radio" name="q2" value="c2" id="q2c">
-        <label for="q2c">2, during the spring and autumn equinox</label>
-        <br/>
-        <input type="radio" name="q2" value="d2" id="q2d">
-        <label for="q2d">4, at the start of each season</label>
-        <br/>
-    </ul>
+        <p class="question">2. How many times does the Inter Tropical Convergence Zone cross over the horizon in a year?</p>
+        <ul class="answers">
+            <input type="radio" name="q2" value="a2" id="q2a">
+            <label for="q2a">1, moves from south to north</label>
+            <br/>
+            <input type="radio" name="q2" value="b2" id="q2b">
+            <label for="q2b">1, moves from north to south</label>
+            <br/>
+            <input type="radio" name="q2" value="c2" id="q2c">
+            <label for="q2c">2, during the spring and autumn equinox</label>
+            <br/>
+            <input type="radio" name="q2" value="d2" id="q2d">
+            <label for="q2d">4, at the start of each season</label>
+            <br/>
+        </ul>
 
-    <p class="question">3. What is the efficiency of solar panels compared to photosynthesis?</p>
-    <ul class="answers">
-        <input type="radio" name="q3" value="a3" id="q3a">
-        <label for="q3a">Solar: 12-22%, Photosynthesis: 0.1-2%</label>
-        <br/>
-        <input type="radio" name="q3" value="b3" id="q3b">
-        <label for="q3b">Solar: 0.1-2%, Photosynthesis: 12-22%</label>
-        <br/>
-        <input type="radio" name="q3" value="c3" id="q3c">
-        <label for="q3c">Solar: 52-60%, Photosynthesis: 33-40%</label>
-        <br/>
-        <input type="radio" name="q3" value="d3" id="q3d">
-        <label for="q3d">-Solar: 33-40%, Photosynthesis: 52-60%</label>
-        <br/>
-    </ul>
+        <p class="question">3. What is the efficiency of solar panels compared to photosynthesis?</p>
+        <ul class="answers">
+            <input type="radio" name="q3" value="a3" id="q3a">
+            <label for="q3a">Solar: 12-22%, Photosynthesis: 0.1-2%</label>
+            <br/>
+            <input type="radio" name="q3" value="b3" id="q3b">
+            <label for="q3b">Solar: 0.1-2%, Photosynthesis: 12-22%</label>
+            <br/>
+            <input type="radio" name="q3" value="c3" id="q3c">
+            <label for="q3c">Solar: 52-60%, Photosynthesis: 33-40%</label>
+            <br/>
+            <input type="radio" name="q3" value="d3" id="q3d">
+            <label for="q3d">-Solar: 33-40%, Photosynthesis: 52-60%</label>
+            <br/>
+        </ul>
 
-    <br/>
-    
-    <input type="button" value=" Submit Answers! " onclick="stopAlarm()">
-    
-</form>
+        <br/>
+        
+        <input type="button" value=" Submit Answers! " onclick="stopAlarm()">
+        <input type="button" value="Return to Home" onclick="location.href='index.html';" id="home">
+        
+    </form>
+</div>
 
 <audio src="meme.mp3" id="mp3" preload="auto" loop autoplay></audio>
 <script type="text/javascript" src="testBankAPES.js"></script>

@@ -1,6 +1,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="testBank.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700">
     <script>
         (function(d) {
             var config = {
@@ -36,64 +37,67 @@
 
 <script type="text/javascript" src="testBankEuro.js"></script>
 
-<h2>Study Alarm: European History Edition</h2>
-<p id="intro">Answer all three questions correctly in order to turn off the alarm!</p>
+<div id="dark" >
+    <h2>Study Alarm: European History Edition</h2>
+    <p id="intro">Answer all three questions correctly in order to turn off the alarm!</p>
 
-<form name="euroTest">
+    <form name="euroTest">
 
-    <p class="question">1. Who ruled the kingdom of Prussia in 1650?</p>
-    <ul class="answers">
-        <input type="radio" name="q1" value="a1" id="q1a">
-        <label value="q1a">Frederick William the Great Elector</label>
-        <br/>
-        <input type="radio" name="q1" value="b1" id="q1b">
-        <label value="q1b">Frederick William I</label>
-        <br/>
-        <input type="radio" name="q1" value="c1" id="q1c">
-        <label value="q1c">Frederick the Great</label>
-        <br/>
-        <input type="radio" name="q1" value="d1" id="q1d">
-        <label value="q1d">Frederick I</label>
-        <br/>
-    </ul>
+        <p class="question">1. Who ruled the kingdom of Prussia in 1650?</p>
+        <ul class="answers">
+            <input type="radio" name="q1" value="a1" id="q1a">
+            <label value="q1a">Frederick William the Great Elector</label>
+            <br/>
+            <input type="radio" name="q1" value="b1" id="q1b">
+            <label value="q1b">Frederick William I</label>
+            <br/>
+            <input type="radio" name="q1" value="c1" id="q1c">
+            <label value="q1c">Frederick the Great</label>
+            <br/>
+            <input type="radio" name="q1" value="d1" id="q1d">
+            <label value="q1d">Frederick I</label>
+            <br/>
+        </ul>
 
-    <p class="question">2. A civil war...</p>
-    <ul class="answers">
-        <input type="radio" name="q2" value="a2" id="q2a">
-        <label for="q2a">in America?</label>
-        <br/>
-        <input type="radio" name="q2" value="b2" id="q2b">
-        <label for="q2b">in England?</label>
-        <br/>
-        <input type="radio" name="q2" value="c2" id="q2c">
-        <label for="q2c">in France?</label>
-        <br/>
-        <input type="radio" name="q2" value="d2" id="q2d">
-        <label for="q2d">in Antarctica?</label>
-        <br/>
-    </ul>
+        <p class="question">2. A civil war...</p>
+        <ul class="answers">
+            <input type="radio" name="q2" value="a2" id="q2a">
+            <label for="q2a">in America?</label>
+            <br/>
+            <input type="radio" name="q2" value="b2" id="q2b">
+            <label for="q2b">in England?</label>
+            <br/>
+            <input type="radio" name="q2" value="c2" id="q2c">
+            <label for="q2c">in France?</label>
+            <br/>
+            <input type="radio" name="q2" value="d2" id="q2d">
+            <label for="q2d">in Antarctica?</label>
+            <br/>
+        </ul>
 
-    <p class="question">3. Who had the biggest stomach?</p>
-    <ul class="answers">
-        <input type="radio" name="q3" value="a3" id="q3a">
-        <label for="q3a">Henry VIII</label>
-        <br/>
-        <input type="radio" name="q3" value="b3" id="q3b">
-        <label for="q3b">Elizabeth I of England</label>
-        <br/>
-        <input type="radio" name="q3" value="c3" id="q3c">
-        <label for="q3c">Catherine the Great</label>
-        <br/>
-        <input type="radio" name="q3" value="d3" id="q3d">
-        <label for="q3d">Louis XVI</label>
-        <br/>
-    </ul>
+        <p class="question">3. Who had the biggest stomach?</p>
+        <ul class="answers">
+            <input type="radio" name="q3" value="a3" id="q3a">
+            <label for="q3a">Henry VIII</label>
+            <br/>
+            <input type="radio" name="q3" value="b3" id="q3b">
+            <label for="q3b">Elizabeth I of England</label>
+            <br/>
+            <input type="radio" name="q3" value="c3" id="q3c">
+            <label for="q3c">Catherine the Great</label>
+            <br/>
+            <input type="radio" name="q3" value="d3" id="q3d">
+            <label for="q3d">Louis XVI</label>
+            <br/>
+        </ul>
 
-    <br/>
+        <br/>
 
-    <input type="button" value=" Submit Answers! " onclick="stopAlarm()">
+        <input type="button" value=" Submit Answers! " onclick="stopAlarm()">
+        <input type="button" value="Return to Home" onclick="location.href='index.html';" id="home">
 
-</form>
+    </form>
+</div>
 
 <audio src="meme.mp3" id="mp3" preload="auto" loop autoplay></audio>
 <script type="text/javascript" src="testBankEuro.js"></script>
