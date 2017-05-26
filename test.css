@@ -17,17 +17,13 @@ html {
         background-size: cover;
 }
 
-p {
+#demo {
     color: white;
     text-align: center;
     font-family: Lato;
-    font-weight: bold;
-    font-size: 1.5em;
-}
+    font-size: 3em;
+    font-weight: 300;
 
-img {
-    height: 170px;
-    width: 170px;
 }
 
 body {
@@ -52,11 +48,24 @@ ol {
 }
 
 select {
-    font-family: Lato;
-    font-size: 1.2em;
+    /*font-family: Lato;
+    font-size: 1.1em;
     border: 0;
     margin: 0 auto;
+    display: inline-block;*/
+
+    font-family: Lato;
+    font-weight: 250px;
+    font-size: 1.2em;
+    border: 0;
     display: inline-block;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px 13px;
+
+    -webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none;
 }
 
 input {
@@ -67,12 +76,7 @@ input {
     display: inline-block;
     background-color: orange;
     border-radius: 5px;
-    margin: 10px;
+    margin: 5px;
     color: white;
-    padding: 10px;
-    border-radius: 4px;
-}
-
-#topics {
-    font-size: 1.2em;
+    padding: 10px 13px;
 }
