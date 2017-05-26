@@ -1,0 +1,123 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="testBank.css">
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'ian8bjg',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                }
+                catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<script type="text/javascript" src="testBankMacro.js"></script>
+
+<h2>Study Alarm: Macroeconomics Edition</h2>
+<p id="intro">Answer all three questions correctly in order to turn off the alarm!</p>
+
+<form name="macroTest">
+
+    <p class="question">1. What does the Fed usually change to control the money supply?</p>
+    <ul class="answers">
+        <input type="radio" name="q1" value="a1" id="q1a">
+        <label value="q1a">discount rate</label>
+        <br/>
+        <input type="radio" name="q1" value="b1" id="q1b">
+        <label value="q1b">federal funds rate</label>
+        <br/>
+        <input type="radio" name="q1" value="c1" id="q1c">
+        <label value="q1c">closed market operations</label>
+        <br/>
+        <input type="radio" name="q1" value="d1" id="q1d">
+        <label value="q1d">open market operations</label>
+        <br/>
+    </ul>
+
+    <p class="question">2. An increase in which of the following would
+cause the aggregate demand curve to shift to
+the left?</p>
+    <ul class="answers">
+        <input type="radio" name="q2" value="a2" id="q2a">
+        <label for="q2a">income taxes</label>
+        <br/>
+        <input type="radio" name="q2" value="b2" id="q2b">
+        <label for="q2b">net exports</label>
+        <br/>
+        <input type="radio" name="q2" value="c2" id="q2c">
+        <label for="q2c">cost of resources</label>
+        <br/>
+        <input type="radio" name="q2" value="d2" id="q2d">
+        <label for="q2d">population</label>
+        <br/>
+    </ul>
+
+    <p class="question">3. The shifting of a country’s production possibilities
+curve to the right will most likely cause</p>
+    <ul class="answers">
+        <input type="radio" name="q3" value="a3" id="q3a">
+        <label for="q3a">the long-run aggregate supply curve to shift
+to the left</label>
+        <br/>
+        <input type="radio" name="q3" value="b3" id="q3b">
+        <label for="q3b">the long-run aggregate supply curve to shift to
+the right</label>
+        <br/>
+        <input type="radio" name="q3" value="c3" id="q3c">
+        <label for="q3c">inflation to increase</label>
+        <br/>
+        <input type="radio" name="q3" value="d3" id="q3d">
+        <label for="q3d">the aggregate demand curve to shift to the left </label>
+        <br/>
+    </ul>
+
+    <br/>
+
+    <input type="button" value=" Submit Answers! " onclick="stopAlarm()">
+
+</form>
+
+<audio src="meme.mp3" id="mp3" preload="auto" loop autoplay></audio>
+<script type="text/javascript" src="testBankMacro.js"></script>
+
+
+<!--<div id="welcomeDiv" style="display:none;" class="answer_list">-->
+<!--    <div id="category1">-->
+<!--        <p>-->
+<!--            <strong>Question 1:</strong> The correct answer is <strong>open market operations</strong>.</p>-->
+<!--    </div>-->
+
+<!--    <div id="category2">-->
+<!--        <p>-->
+<!--            <strong>Question 2:</strong> The correct answer is <strong>income taxes</strong>.</p>-->
+<!--    </div>-->
+
+<!--    <div id="category3">-->
+<!--        <p>-->
+<!--            <strong>Question 3:</strong> The correct answer is <strong>the long-run aggregate supply curve to shift to
+the right</strong></p>-->
+<!--    </div>-->
+<!--</div>-->
+<!--<input type="button" name="answer" value="Show me the answers!" onclick="showDiv()" />-->

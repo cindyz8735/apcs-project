@@ -30,6 +30,9 @@ function checkTime(inputHour, inputMinute) {
     else if (inputTestBank == 4) {
         x = "testBankEnglish.html";
     }
+    else if (inputTestBanl == 5) {
+        x = "testBankMacro.html";
+    }
     else {
         x = "testBankAPES.html";
     }
@@ -75,6 +78,9 @@ function setAlarm() {
     }
     else if (inputTestBank == 4) {
         x = "testBankEnglish.html";
+    }
+    else if (inputTestBank == 5){
+        x = "testBankMacro.html";
     }
     else {
         x = "testBankAPES.html";
